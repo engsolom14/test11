@@ -97,8 +97,8 @@
 		81B8F68B2053F06A00FE195B /* test11 */ = {
 			isa = PBXGroup;
 			children = (
+				81B8F6C32053F1EE00FE195B /* Controller */,
 				81B8F68C2053F06A00FE195B /* AppDelegate.swift */,
-				81B8F68E2053F06A00FE195B /* ViewController.swift */,
 				81B8F6902053F06A00FE195B /* Main.storyboard */,
 				81B8F6932053F06A00FE195B /* Assets.xcassets */,
 				81B8F6952053F06B00FE195B /* LaunchScreen.storyboard */,
@@ -123,6 +123,14 @@
 				81B8F6AE2053F06B00FE195B /* Info.plist */,
 			);
 			path = test11UITests;
+			sourceTree = "<group>";
+		};
+		81B8F6C32053F1EE00FE195B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				81B8F68E2053F06A00FE195B /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
